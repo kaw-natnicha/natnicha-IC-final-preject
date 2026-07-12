@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Japan Fes</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="header">
+			<ul id="navigation">
+				<li>
+					<a href="index.html" id="home">Home</a>
+				</li>
+				<li>
+					<a href="#" id="email">Email</a>
+				</li>
+			</ul>
+			<p>Ask anything! <span>1-234-567-676</span></p>
+			<a href="index.html" id="logo"><img src="images/Logo_fullcoloroutline.png" alt="logo"/></a>
+			<ul class="navigation">
+				<li class="selected first">
+					<a href="destinations.html">Japan Destinations</a>
+				</li>
+				<li>
+					<a href="ships.html">Event Activities</a>
+				</li>
+				<li>
+					<a href="cruises.html">Plan Your Visit</a>
+				</li>
+			</ul>
+		    <div id="featured">
+				<div class="first">
+					<ul>
+						<li class="selected first">
+							<a href="featured.html">Featured Guide</a>
+							<div>
+								<a href="featured.html"><img src="images/welcome-image-featured.jpg" alt="Welcome to Japan Fes"/></a>
+								<p><strong>Welcome to Natnicha's Japan event guide, your quick guide to cultural festivals and international events around Japan.</strong></p>
+							</div>
+						</li>
+						<li>
+							<a href="highlights.html">Highlights</a>
+							<div>
+								<a href="highlights.html"><img src="images/gion-featured-tab.jpg" alt="Gion Matsuri lanterns"/></a>
+								<p>See major traditional festivals with parades, music, dancing, and shrine history across Japan.</p>
+							</div>
+						</li>
+						<li>
+							<a href="offers.html">International Events</a>
+							<div>
+								<a href="offers.html"><img src="images/brazil-event-large.jpg" alt="Festival food and music"/></a>
+								<p>Find upcoming international food, music, art, and culture events happening around Japan.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Find An Event</h3>
+					<form action="">
+						<select name="" id="">
+							<option value="month">Any Month</option>
+						</select>
+						<select name="" id="">
+							<option value="destinations">Any City</option>
+						</select>
+						<select name="" id="">
+							<option value="event">Any Event Type</option>
+						</select>
+						<select name="" id="">
+							<option value="season">Any Season</option>
+						</select>
+						<input type="submit" value=""/>
+					</form>
+					<div>
+						<h3>Quick Guide</h3>
+						<ul>
+							<li>
+								<a href="destinations.html">Explore event destinations</a>
+								<p>Choose cities known for festivals, food fairs, and cultural highlights.</p>
+							</li>
+							<li>
+								<a href="ships.html">Browse event activities</a>
+								<p>Learn what to expect from parades, market stalls, music, and exhibitions.</p>
+							</li>
+							<li>
+								<a href="cruises.html">Plan your visit</a>
+								<p>Check transport, timing, and festival tips before you go.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<div id="content">
+			<div>
+				<p class="original-template-link"><a href="https://freewebsitetemplates.com/preview/cruisevacationtemplate/index.html" target="_blank" rel="noopener noreferrer">see original templates here!</a></p>
+				<div id="event-recommendation">
+					<h2>Find Your Event</h2>
+					<p>(Added JS function)</p>
+					<p>Enter your name and an interest: food, dance, art, parade, or tradition. I'll recommend an event that suits you.</p>
+					<input type="text" id="visitorName" placeholder="Enter your name"/>
+					<input type="text" id="eventInterest" placeholder="food, dance, art, parade, or tradition"/>
+					<button type="button" onclick="recommendEvent()">Recommend Event</button>
+					<p id="recommendationResult"></p>
+				</div>
+				<div class="first">
+					<h2>Highlights</h2>
+					<ul>
+						<li>
+							<a href="#"><img src="images/gion-event-thumb.jpg" alt="Gion Matsuri"/></a>
+							<span><a href="#">Gion Matsuri</a></span>
+							<p>Kyoto float parades and shrine rituals.</p>
+							<a href="highlights.html" class="details">See Details</a>
+						</li>
+						<li>
+							<a href="#"><img src="images/tenjin-event-thumb.jpg" alt="Tenjin Matsuri"/></a>
+							<span><a href="#">Tenjin Matsuri</a></span>
+							<p>Osaka river parade with fireworks.</p>
+							<a href="highlights.html" class="details">See Details</a>							
+						</li>
+						<li>
+							<a href="#"><img src="images/aomori-event-thumb.jpg" alt="Aomori Nebuta Matsuri"/></a>
+							<span><a href="#">Aomori Nebuta</a></span>
+							<p>Giant lantern floats with music and dancers.</p>
+							<a href="highlights.html" class="details">See Details</a>							
+						</li>
+						<li>
+							<a href="#"><img src="images/awa-event-thumb.jpg" alt="Tokushima Awa Odori"/></a>
+							<span><a href="#">Awa Odori</a></span>
+							<p>Tokushima's lively Obon dance festival.</p>
+							<a href="highlights.html" class="details">See Details</a>							
+						</li>
+					</ul>
+					<a href="highlights.html">View all</a>
+				</div>
+				<div>
+					<h2>International Events</h2>
+					<ul>
+						<li>
+							<a href="offers.html"><img src="images/brazil-event-thumb.jpg" alt="Festival Brasil and Latino"/></a>
+							<span><a href="offers.html">Brasil Latino</a></span>
+							<p>Brazilian music, food, and dance.</p>
+							<a href="offers.html" class="details">See Details</a>							
+						</li>
+						<li>
+							<a href="offers.html"><img src="images/oktoberfest-event-thumb.jpg" alt="Oktoberfest in Shiba Park"/></a>
+							<span><a href="offers.html">Oktoberfest</a></span>
+							<p>German food, beer, and music.</p>
+							<a href="offers.html" class="details">See Details</a>							
+						</li>
+						<li>
+							<a href="offers.html"><img src="images/marimekko-event-thumb.jpg" alt="Marimekko Exhibition"/></a>
+							<span><a href="offers.html">Marimekko</a></span>
+							<p>Finnish fashion and print design.</p>
+							<a href="offers.html" class="details">See Details</a>							
+						</li>
+						<li>
+							<a href="offers.html"><img src="images/tokyo-art-event-thumb.jpg" alt="ARTE TOKYO"/></a>
+							<span><a href="offers.html">ARTE TOKYO</a></span>
+							<p>Tokyo art, music, and lights.</p>
+							<a href="offers.html" class="details">See Details</a>							
+						</li>
+					</ul>
+					<a href="offers.html">View all</a>
+				</div>
+				<div id="news">
+					<h2>Get Updated</h2>
+					<a href="#">Follow updates on <font>Twitter</font></a>
+					<a href="#">See photos on <font>Facebook</font></a>
+					<a href="blog.html">Read <font>Event Notes</font></a>
+					<a href="#">Watch clips on <font>YouTube</font></a>
+					
+					<div>
+						<h3>Event Guide</h3>
+						<a href="featured.html" id="download"><img src="images/welcome-image-featured.jpg" alt="Japan event guide"/></a>
+						<a href="#">Download Guide</a>
+						<p>Use the guide pages to compare festival highlights, international events, locations, and dates before planning your day.</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<ul>
+					<li><a href="about.html">About Japan Fes</a></li>
+					<li><a href="blog.html">Event Notes</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+				<ul>
+					<li><a href="destinations.html">Japan Destinations</a></li>
+					<li><a href="ships.html">Event Activities</a></li>
+					<li><a href="cruises.html">Plan Your Visit</a></li>
+				</ul>
+				<ul>
+					<li><a href="featured.html">Featured Guide</a></li>
+					<li><a href="highlights.html">Highlights</a></li>
+					<li><a href="offers.html">International Events</a></li>
+				</ul>
+				<form action="">
+					<span>Get Updates for</span>
+					<h2>Highlights &amp; International Events</h2>
+					<input type="text" value="Enter email address" id="email" onblur="this.value=!this.value?'Enter email address':this.value;" onfocus="this.select()" onclick="this.value='';" />
+					<input type="submit" id="submit" value=""/>
+				</form>
+				<p>&#169; Copyright 2026. 25229568 PRONGSUNGNOEN NATNICHA (no.130). All Rights Reserved.</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			alert("Welcome to Natnicha's Japan event guide");
+
+			function recommendEvent() {
+				var name = document.getElementById("visitorName").value;
+				var interest = document.getElementById("eventInterest").value.toLowerCase();
+				var recommendation = "";
+
+				if (interest == "food") {
+					recommendation = "Festival Brasil & Latino or Oktoberfest";
+				} else if (interest == "dance") {
+					recommendation = "Tokushima Awa Odori";
+				} else if (interest == "art") {
+					recommendation = "ARTE TOKYO or Marimekko Exhibition";
+				} else if (interest == "parade") {
+					recommendation = "Gion Matsuri or Tenjin Matsuri";
+				} else if (interest == "tradition") {
+					recommendation = "Aomori Nebuta Matsuri";
+				} else {
+					document.getElementById("recommendationResult").innerHTML = "Sorry. Please try typing food, dance, art, parade, or tradition. (sadly I'm not that advanced yet :( )";
+					return;
+				}
+
+				document.getElementById("recommendationResult").innerHTML = "For " + name + ", I recommend trying out " + recommendation + "!";
+			}
+
+			document.getElementById("eventInterest").addEventListener("keydown", function(event) {
+				if (event.key == "Enter") {
+					recommendEvent();
+				}
+			});
+		</script>
+	</body>
+</html>
